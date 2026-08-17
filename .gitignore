@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.venv/
+*.egg-info/
+dist/
+world_model/checkpoints/
+world_model/outputs/
+world_model/dist/
+world_model/*.egg-info/
+/outputs/
+/model_artifacts/
+/docs/resources/world-model-showcase/
+*.pt
+*.safetensors

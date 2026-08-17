@@ -1,0 +1,27 @@
+{
+  "format_version": 1,
+  "repository": "Fleurrr/A2World-World-Model",
+  "license": "NVIDIA Open Model License",
+  "license_file": "NVIDIA_OPEN_MODEL_LICENSE.md",
+  "base_model": "nvidia/Cosmos-Predict2-2B-Video2World",
+  "artifacts": [
+    {
+      "id": "a2world-pretrained",
+      "filename": "a2world-pretrained.pt",
+      "stage": "multi-view robot-data pretraining",
+      "format": "EMA weights with net.* inference keys in bfloat16",
+      "size_bytes": 5054966852,
+      "sha256": "aa82779c9f159018692ab67aaacf49f9da4d9d78a0c2c603bbdd5e52440cc0b6",
+      "status": "validated release artifact"
+    },
+    {
+      "id": "a2world-libero",
+      "filename": "a2world-libero.pt",
+      "stage": "history-aware LIBERO adaptation",
+      "format": "EMA weights with net.* inference keys in bfloat16",
+      "size_bytes": 5029465374,
+      "sha256": "0d462d248cf0718ca9d360b5860b4b1090b80ba638ee6463133788324b08cbe2",
+      "status": "validated release artifact"
+    }
+  ]
+}
